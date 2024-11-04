@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shortcut-trainer/static/css/main.6f34a51a.css",
+    "main.js": "/shortcut-trainer/static/js/main.ca56109d.js",
+    "static/js/453.b120a098.chunk.js": "/shortcut-trainer/static/js/453.b120a098.chunk.js",
+    "index.html": "/shortcut-trainer/index.html",
+    "main.6f34a51a.css.map": "/shortcut-trainer/static/css/main.6f34a51a.css.map",
+    "main.ca56109d.js.map": "/shortcut-trainer/static/js/main.ca56109d.js.map",
+    "453.b120a098.chunk.js.map": "/shortcut-trainer/static/js/453.b120a098.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f34a51a.css",
+    "static/js/main.ca56109d.js"
+  ]
+}
