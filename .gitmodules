@@ -1,0 +1,3 @@
+[submodule "shortcut-trainer"]
+	path = shortcut-trainer
+	url = https://github.com/BlokusPokus/shortcut-trainer
