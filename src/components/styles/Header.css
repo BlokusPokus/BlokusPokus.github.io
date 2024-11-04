@@ -1,0 +1,9 @@
+.intro-text-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-text {
+    font-size: 1.5rem;
+}

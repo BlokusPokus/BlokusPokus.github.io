@@ -1,0 +1,100 @@
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  
+  .top-section,
+  .middle-section {
+    width: 100%;
+  }
+  button:disabled {
+    opacity: 0.5;
+  }
+
+
+
+  .top-section {
+    margin-bottom: 20px;
+  }
+
+
+
+  .hotkey-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+  }
+
+.main-content {
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    flex: 1;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.hotkey-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotkey-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 100%;
+}
+
+.control-buttons {
+  position: absolute;
+  right: 0px;  /* Same as command palette */
+  top: 57%;     /* Position it vertically */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  z-index: 1;
+  width: 40px;  /* Match the command palette width */
+}
+
+.control-buttons button {
+    width: 100px;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.intro-text {
+  padding-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--hl-color);
+}
+

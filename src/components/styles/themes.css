@@ -1,0 +1,78 @@
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+.default {
+    --bg-color: black;
+    --font-color: lightslategray;
+    --hl-color: rgb(210, 207, 202);
+    --fg-color: #292f34;
+}
+
+.mkbhd {
+    --bg-color: #171717;
+    --font-color: #ededed;
+    --hl-color: #da0037;
+    --fg-color: #444444;
+}
+
+.more-coffee {
+    --bg-color: #2d2424;
+    --font-color: #e0c097;
+    --hl-color: #dc521c;
+    --fg-color: #5c3d2e;
+}
+
+
+
+.ocean {
+    --bg-color: #dddddd;
+    --font-color: #125d98;
+    --hl-color: #f5a962;
+    --fg-color: #3c8dad;
+}
+
+.dirty-purple {
+    --bg-color: #383e56;
+    --font-color: #ede3de;
+    --hl-color: #e08f6f;
+    --fg-color: #d4b5b0;
+}
+
+.forest {
+    --bg-color: #334443;
+    --font-color: #fff8df;
+    --hl-color: #50C878;  /* Changed to emerald green */
+    --fg-color: #34656d;
+}
+
+.dont-try-that-one {
+    --bg-color: #ff00ff;      /* Hot pink */
+    --font-color: #00ff00;    /* Neon green */
+    --hl-color: #ffff00;      /* Bright yellow */
+    --fg-color: #00ffff;      /* Cyan */
+}
+
+
+.terminal {
+    --bg-color: #000000;
+    --font-color: #ffffff;
+    --hl-color: #ff0000;
+    --fg-color: #00ff00;
+}
+
+.belgian-train {
+    --bg-color: #1e1e1e;
+    --font-color: #d4d4d4;
+    --hl-color: #ce9178;
+    --fg-color: #474747;
+}
+
+.mountain {
+    --bg-color: #10271e;
+    --font-color: #d1ac3f;
+    --hl-color: #dae9d9;
+    --fg-color: #485e2c;
+}
+
